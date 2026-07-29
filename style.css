@@ -1,0 +1,39 @@
+body {
+    background-color: #1a1a1a;
+    margin: 0;
+    padding: 30px;
+    font-family: "Special Elite", system-ui;
+}
+header {
+    color: rgb(165, 165, 61);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(165, 165, 61);
+    padding: 5px;
+        
+    
+    
+}
+div.Nome-da-pagina{
+    display: flex;
+}
+img {
+    width: 80px;
+}
+h1 {
+    color: rgb(165, 165, 61);
+}
+h2 {
+    color: rgb(165, 165, 61);
+}
+p {
+    color: rgb(165, 165, 61);
+}
+
+button {
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: rgb(165, 165, 61) ;
+}

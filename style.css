@@ -1,24 +1,36 @@
 body {
     background-color: #1a1a1a;
-    margin: 0;
-    padding: 30px;
+    margin: 0px;
+    padding: -10px;
     font-family: "Special Elite", system-ui;
+   
 }
+
 header {
     color: rgb(165, 165, 61);
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid rgb(165, 165, 61);
-    padding: 5px;
-        
-    
-    
+    margin: 2px;
+   
+}
+div.Botoes-de-navegacao {
+    margin: 25px;
+    padding: 2px;
 }
 div.Nome-da-pagina{
     display: flex;
+    width: 10px;
+}
+div.texto-inicial{
+    margin-left: 30px;
+    margin-top: 10px;
+    
 }
 img {
-    width: 80px;
+    width: 90px;
+    
+    
 }
 h1 {
     color: rgb(165, 165, 61);
@@ -31,9 +43,144 @@ p {
 }
 
 button {
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 5px;
     font-size: 12px;
     cursor: pointer;
     background-color: rgb(165, 165, 61) ;
+    border: 5px;
+    padding: 7px;
+    margin-top: 15px;
+   
 }
+button:hover {
+    background-color: rgb(185, 138, 8) ;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+button:active {
+    transform: scale(1);
+    background-color: rgb(99, 99, 86) ;
+}
+
+div.textinho {
+    color: rgb(165, 165, 61);
+    width: 300px;
+}
+
+div.Fotos {
+    position: relative;
+    justify-content: center;
+    
+}
+img.A {
+    position: relative;
+    transform: rotate(-25deg);
+    width: 150px;
+    left: 20px;
+}
+img.B {
+    position: relative;
+    width: 130px;
+    right: 20px;
+}
+img.C {
+    position: relative;
+    width: 130px;
+    right: 70px;
+    transform: rotate(25deg);
+    top: 25px;
+}
+div.parte-lateral-direita {
+    display: flex;
+}
+
+div.parte-principal {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+div.parte-lateral-esquerda-personagem {
+    width: 450px;
+    margin-left: 200px ;
+    margin-top: 75px;
+    
+}
+div.parte-principal-personagem {
+    display: flex;
+    justify-content: space-between;
+}
+
+img.img-atributos {
+    position: relative;
+    width: 430px;
+    right: 50px;
+}
+
+input.forca {
+    position: relative;
+    left: -415px;
+    top: -248px;
+}
+input.atributos {
+    text-align: center;
+    border: 0px;
+    background-color: #1a1a1a;
+    width: 25px;
+    outline: #1a1a1a;
+    border-bottom: 1px solid rgb(245, 245, 243);
+    padding: 1px;
+    font-size: xx-large;
+    font-weight: 500;
+    color: rgb(229, 230, 231);
+}
+
+input.agilidade {
+    position: relative;
+    left: -312px;
+    top: -340px;
+}
+input.vigor {
+    position: relative;
+    left: -322px;
+    top: -89px;
+}
+input.intelecto {
+    position: relative;
+    left: -209px;
+    top: -249px;
+}
+input.presenca {
+    position: relative;
+    left: -467px;
+    top: -89px;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+div.navegacao-personagem {
+    display: flex;
+    align-items: center;
+    margin-left: 190px;
+    
+}
+
+div.etapa {
+    display: flex;
+    align-items: center;
+}
+div.linha{
+    width: 80px;
+    height: 2px;
+    background: rgb(231,231,224);
+    margin: 0 20px;
+}
+div.etapa:hover {
+    cursor: pointer;
+}
+
+

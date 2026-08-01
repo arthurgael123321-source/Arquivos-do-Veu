@@ -8,12 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    
 </head>
 <header>
 
 <div class="Nome-da-pagina"> 
         
-        <a href="../index.html"> <img src="../assets\ChatGPT Image 29 de jul. de 2026, 18_21_09.png" alt=""> </a>
+        <a href="../index.html"> <img class="logo" src="../assets\ChatGPT Image 29 de jul. de 2026, 18_21_09.png" alt=""> </a>
         <h1>Arquivos do Véu</h1>     
 
     </div>
@@ -27,33 +28,33 @@
     <div class="navegacao-personagem">
 
         <div class="etapa">
-            <h1>Atributos</h1>
+            <h1 class="clicavel-personagem" id="botao-atributos">Atributos</h1>
             <div class="linha"></div>
         </div>
 
         <div class="etapa">
-            <h1>Origem</h1>
+            <h1 class="clicavel-personagem" id="botao-origem">Origem</h1>
             <div class="linha"></div>
         </div>
 
         <div class="etapa">
-            <h1>Classe</h1>
+            <h1 class="clicavel-personagem" id="botao-classes">Classe</h1>
             <div class="linha"></div>
         </div>
 
         <div class="etapa">
-            <h1>Toques finais</h1>
+            <h1 class="clicavel-personagem" id="botao-toquesfinais">Toques finais</h1>
         </div>
 
 
     </div>
 
 </div>
-   <div class="parte-principal-personagem">
-    <div class="parte-lateral-esquerda-personagem">
+   <div class="parte-atributos-personagem" id="pagina-atributos">
+    <div class="parte-atributos-lateral-esquerda-personagem">
         <h2>Quando você cria um personagem, todos os seus atributos começam em 1 e você recebe 4 pontos para distribuir entre eles como quiser. Você também pode reduzir um atributo para 0 para receber 1 ponto adicional. O valor máximo inicial que você pode ter em cada atributo é 3.</h2>
     </div>
-    <div class="parte-lateral-direita-personagem">
+    <div class="parte-atributos-lateral-direita-personagem">
         <img class="img-atributos" src="../assets\attributes-V37qZCrP.png" alt="">
         
             <input min="0" max="3" value="1" class="atributos forca" type="number">
@@ -65,5 +66,22 @@
     </div>
     </div>
 
+    <div class="Origem" id="pagina-origem">
+     
+        <div class="texto-origem-explicativo">
+            <p>O que seu personagem fazia antes de se envolver com o paranormal e ingressar na Ordem da Realidade? A origem representa como a vida pregressa influencia sua carreira de investigador. Escolha uma origem que se encaixe com o conceito de seu personagem ou escolha uma aleatoriamente.</p>
+            <p>Ao escolher uma origem, você recebe duas perícias treinadas e um poder da origem.</p>
+            <p>Cada origem apresentada a seguir é intencionalmente vaga, apenas uma ideia por onde começar. Você pode usá-la como está, para jogar rapidamente, ou colorir com quantos detalhes quiser, conforme o conceito de seu agente.</p>
+            <p>Perícias concedidas serão adicionadas automaticamente. Perícias opcionais podem ser adicionadas ao agente após sua criação.</p>
+        </div>
+    <div class="origems-escolher">
+        <div class="card-origem">
+        <h2 class="origem-academico">Acadêmico</h2>
+        </div>
+    </div>
+    </div>
+
+
 </body>
+<script src="../script.js"></script>
 </html>

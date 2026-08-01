@@ -27,9 +27,9 @@ div.texto-inicial{
     margin-top: 10px;
     
 }
-img {
+img.logo {
     width: 90px;
-    
+    height: 90px;
     
 }
 h1 {
@@ -101,13 +101,13 @@ div.parte-principal {
     
 }
 
-div.parte-lateral-esquerda-personagem {
+div.parte-atributos-lateral-esquerda-personagem {
     width: 450px;
     margin-left: 200px ;
     margin-top: 75px;
     
 }
-div.parte-principal-personagem {
+div.parte-atributos-personagem {
     display: flex;
     justify-content: space-between;
 }
@@ -155,6 +155,7 @@ input.presenca {
     position: relative;
     left: -467px;
     top: -89px;
+    
 }
 input::-webkit-inner-spin-button,
 input::-webkit-outer-spin-button{
@@ -182,5 +183,38 @@ div.linha{
 div.etapa:hover {
     cursor: pointer;
 }
+h1.clicavel-personagem:active {
+    color: azure;
+}
+div.Origem {
+    display: flex;
+    flex-direction: column;
+    
+}
+div.texto-origem-explicativo {
+    font-size: medium;
+    width: 550px;
+    justify-content: center;
+    margin-left: 380px;
+    
+    
+}
+div.origems-escolher {
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
 
-
+div.card-origem {
+    background-color: rgb(70, 69, 69);
+    height: 50px;
+    border-radius: 3px;
+    border-color: rgb(70, 69, 69);
+    width: 250px;
+}
+h2.origem-academico {
+    margin: 3px;
+   
+}

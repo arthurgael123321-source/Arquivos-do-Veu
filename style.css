@@ -1,10 +1,11 @@
 body {
-    background-color: #1a1a1a;
+    background-color: #0a0a0a;
     margin: 0px;
     padding: -10px;
-    font-family: "Special Elite", system-ui;
+    font-family: "Griffy", "Lato", sans-serif system-ui;
    
 }
+
 
 header {
     color: rgb(165, 165, 61);
@@ -17,6 +18,13 @@ header {
 div.Botoes-de-navegacao {
     margin: 25px;
     padding: 2px;
+    display: flex;
+    gap: 15px;
+    margin-right: 320px;
+    cursor: pointer;
+}
+div.Botoes-de-navegacao:active{
+    color: antiquewhite;
 }
 div.Nome-da-pagina{
     display: flex;
@@ -30,16 +38,25 @@ div.texto-inicial{
 img.logo {
     width: 90px;
     height: 90px;
+    margin-top: 15px;
     
+}
+h1.titulo {
+    font-family: "Griffy", system-ui;
 }
 h1 {
     color: rgb(165, 165, 61);
 }
 h2 {
-    color: rgb(165, 165, 61);
+    color: rgb(207, 207, 203);
 }
 p {
-    color: rgb(165, 165, 61);
+    color: rgb(207, 207, 203);
+}
+h1.topo-inicio {
+    font-size: x-large;
+    border-bottom: none;
+    
 }
 
 button {
@@ -64,7 +81,7 @@ button:active {
 }
 
 div.textinho {
-    color: rgb(165, 165, 61);
+    color: rgb(207, 207, 203);
     width: 300px;
 }
 
@@ -126,9 +143,9 @@ input.forca {
 input.atributos {
     text-align: center;
     border: 0px;
-    background-color: #1a1a1a;
+    background-color: #0a0a0a;
     width: 25px;
-    outline: #1a1a1a;
+    outline: #0a0a0a;
     border-bottom: 1px solid rgb(245, 245, 243);
     padding: 1px;
     font-size: xx-large;
@@ -192,10 +209,10 @@ div.Origem {
     
 }
 div.texto-origem-explicativo {
-    font-size: medium;
-    width: 550px;
+    font-size: large;
+    width: 750px;
     justify-content: center;
-    margin-left: 380px;
+    margin-left: 280px;
     
     
 }
@@ -203,18 +220,86 @@ div.origems-escolher {
     
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 55%;
+    flex-direction: column;
+    margin-left: 280px;
     
 }
 
 div.card-origem {
-    background-color: rgb(70, 69, 69);
-    height: 50px;
+    background-color: rgb(44, 42, 42);
+    
     border-radius: 3px;
-    border-color: rgb(70, 69, 69);
-    width: 250px;
+    border-color: rgb(44, 42, 42);
+    padding: 9px;
+    margin: 7px;
+    cursor: pointer;
+    
 }
-h2.origem-academico {
-    margin: 3px;
-   
+h2.origem-card {
+    margin-top: 16px;
+    font-size:larger;
+    margin-left: 15px;
+    font-weight:900;
 }
+div.Origem {
+    display: none;
+}
+div.detalhes-origem {
+    display: none;
+    
+}
+div.card-origem.aberto div.detalhes-origem{
+    background-color:rgb(44, 42, 42) ;
+    width: 100%;
+    font-size: medium;
+    display: block;
+}
+button.escolher-origem {
+    border-radius: 2px;
+}
+button.botao-criar-agente {
+    border-radius: 2px;
+}
+div.lado-direito-agentes{
+    display: flex;
+    margin-left: 90%;
+    margin-top: 10px;
+    
+}
+h3.guia-do-site {
+   color: rgb(207, 207, 203);
+   width: 250px;
+}
+div.Classes {
+    flex-direction: column;
+    
+    
+}
+div.texto-explicativo-classes {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin-left: 250px;
+}
+
+div.Classes {
+    display: none;
+}
+button.mundano {
+    border-radius: 2px
+}
+div.pai-card-classes h1{
+    background-color: rgb(44, 42, 42);
+    width: 300px;
+    height: 500px;
+    
+    
+}
+div.pai-card-classes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+

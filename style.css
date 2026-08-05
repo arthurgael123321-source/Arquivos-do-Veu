@@ -202,11 +202,7 @@ div.etapa:hover {
 h1.clicavel-personagem:active {
     color: azure;
 }
-div.Origem {
-    display: flex;
-    flex-direction: column;
-    
-}
+
 div.texto-origem-explicativo {
     font-size: large;
     width: 750px;
@@ -241,8 +237,9 @@ h2.origem-card {
     margin-left: 15px;
     font-weight:900;
 }
-div.Origem {
+div.origem {
     display: none;
+    flex-direction: column;
 }
 div.detalhes-origem {
     display: none;
@@ -288,17 +285,64 @@ div.classes {
 button.mundano {
     border-radius: 2px
 }
-div.pai-card-classes h1{
+div.pai-card-classes div.card-classes{
     background-color: rgb(44, 42, 42);
-    width: 300px;
+    width: 350px;
     height: 500px;
+    justify-content: center;
+    border-radius: 3px;
+    overflow: scroll;
     
     
 }
 div.pai-card-classes {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 40px;
 
 }
+h1.titulo-classe {
+    font-size: x-large;
+    margin-left: 112px;
+}
 
+div.paragrafos-inicial-combatente {
+    margin: 5px;
+}
+div.card-caracteristicas-combatente {
+    background-color: rgb(15, 15, 15);
+    width: 300px;
+    height: 350px;
+    justify-content: center;
+    border-radius: 3px;
+    margin-left: 15px;
+    gap: 35px;
+}
+h2.titulo-secao {
+    color: rgb(185, 165, 61);
+    margin-left: 30px;
+}
+span.parte-direita {
+     color: rgb(165, 165, 61);
+     font-size: small;
+     font-weight: bold;
+     margin: 6px;
+}
+
+span.parte-esquerda {
+   color: rgb(207, 207, 203);
+    font-size: small;
+    font-weight: bold;
+    margin: 6px;
+}
+div.linha-secao {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+div.divisoria {
+    height: 2px;
+    background-color: rgb(165, 165, 61);
+    width: 90%;
+    margin-left: 15px;
+}

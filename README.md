@@ -35,3 +35,8 @@ Autor
 Arthur Gonçalves
 
 Em desenvolvimento 
+
+
+# PREVIEW
+![Home](screenshots\Home_arquivos_do_veu.png)
+![Criação de personagem](screenshots\atributos_arquivos_do_veu.png)

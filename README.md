@@ -1,6 +1,4 @@
-# Projeto-site-RPG
-
-# Arquivo do Véu
+# Arquivos do Véu
 
 Sistema web inspirado em Ordem Paranormal RPG, desenvolvido para auxiliar mestres e jogadores na criação e gerenciamento de personagens, campanhas e investigações.
 

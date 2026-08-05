@@ -223,7 +223,6 @@ div.origens-escolher {
 
 div.card-origem {
     background-color: rgb(44, 42, 42);
-    
     border-radius: 3px;
     border-color: rgb(44, 42, 42);
     padding: 9px;
@@ -308,13 +307,14 @@ h1.titulo-classe {
 
 div.paragrafos-inicial-combatente {
     margin: 5px;
+    gap: 10px;
 }
 div.card-caracteristicas-combatente {
     background-color: rgb(15, 15, 15);
     width: 300px;
-    height: 350px;
+    height: 340px;
     justify-content: center;
-    border-radius: 3px;
+    border-radius: 5px;
     margin-left: 15px;
     gap: 35px;
 }
@@ -345,4 +345,75 @@ div.divisoria {
     background-color: rgb(165, 165, 61);
     width: 90%;
     margin-left: 15px;
+}
+div.card-caracteristicas-nex {
+    background-color: rgb(15, 15, 15);
+    width: 300px;
+    height: 620px;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 15px;
+    gap: 35px;
+    margin-top: 20px;
+
+}
+div.cabecalho-card-nex {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    
+}
+span.parte-esquerda-nex {
+    color: rgb(207, 207, 203);
+    font-size: small;
+    font-weight: bold;
+    margin: 6px;
+    margin-left: 38px;
+    text-align: left;
+}
+span.parte-direita-nex {
+    color: rgb(207, 207, 203);
+    font-size: small;
+    font-weight: bold;
+    margin: 6px;
+    text-align: right;
+}
+div.linha-secao-nex:nth-child(even){
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    
+}
+div.linha-secao-nex:nth-child(odd){
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    background-color: rgb(44, 42, 42);
+    width: 95%;
+    margin-left: 8px;
+}
+div.linha-secao-nex:nth-child(odd) span {
+    margin-left: 28px ;
+}
+div.card-habilidades-combatente {
+    background-color: rgb(15, 15, 15);
+    width: 300px;
+    height: 620px;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 15px;
+    gap: 35px;
+    margin-top: 20px;
+
+}
+div.card-explicativos-habilidades-combatente {
+    background-color: rgb(44, 42, 42);
+    border-radius: 3px;
+    border-color: rgb(44, 42, 42);
+    padding: 9px;
+    margin: 7px;
+    cursor: pointer;
+}
+h2.titulo-card-habilidades-combatente {
+    color: rgb(165, 165, 61);
 }

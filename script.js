@@ -13,6 +13,7 @@ let paginaClasses = document.getElementById("pagina-classes");
 
 let botaoOrigem = document.getElementById("botao-origem");
 
+let CardsHabilidadescombatente = document.querySelectorAll("div.card-explicativos-habilidades-combatente");
 
 
 botaoAtributos.addEventListener("click", function (){
@@ -40,6 +41,13 @@ botaoClasses.addEventListener("click", function() {
 
 
 detalhesCards.forEach(function(card){
+    card.addEventListener("click", function(){
+        card.classList.toggle("aberto")
+
+    })
+});
+
+CardsHabilidadescombatente.forEach(function(card){
     card.addEventListener("click", function(){
         card.classList.toggle("aberto")
 

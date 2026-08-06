@@ -398,7 +398,7 @@ div.linha-secao-nex:nth-child(odd) span {
 div.card-habilidades-combatente {
     background-color: rgb(15, 15, 15);
     width: 300px;
-    height: 620px;
+    height: 1800px;
     justify-content: center;
     border-radius: 5px;
     margin-left: 15px;
@@ -413,6 +413,12 @@ div.card-explicativos-habilidades-combatente {
     padding: 9px;
     margin: 7px;
     cursor: pointer;
+}
+div.card-explicativos-habilidades-combatente.aberto div.detalhes-habilidades-combatente{
+    background-color:rgb(44, 42, 42) ;
+    width: 100%;
+    font-size: medium;
+    display: block;
 }
 h2.titulo-card-habilidades-combatente {
     color: rgb(165, 165, 61);

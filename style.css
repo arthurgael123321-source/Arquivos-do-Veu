@@ -398,12 +398,13 @@ div.linha-secao-nex:nth-child(odd) span {
 div.card-habilidades-combatente {
     background-color: rgb(15, 15, 15);
     width: 300px;
-    height: 1800px;
+    height: auto;
     justify-content: center;
     border-radius: 5px;
     margin-left: 15px;
     gap: 35px;
     margin-top: 20px;
+    padding-bottom: 2px;
 
 }
 div.card-explicativos-habilidades-combatente {
@@ -413,13 +414,43 @@ div.card-explicativos-habilidades-combatente {
     padding: 9px;
     margin: 7px;
     cursor: pointer;
+  
 }
 div.card-explicativos-habilidades-combatente.aberto div.detalhes-habilidades-combatente{
     background-color:rgb(44, 42, 42) ;
-    width: 100%;
+    width: 98%;
     font-size: medium;
     display: block;
 }
 h2.titulo-card-habilidades-combatente {
     color: rgb(165, 165, 61);
+    font-size: medium;
+}
+div.detalhes-habilidades-combatente{
+    display: none;
+}
+div.trilhas-de-combatente {
+    background-color: rgb(15, 15, 15);
+    width: 300px;
+    height: auto;
+    justify-content: center;
+    border-radius: 5px;
+    gap: 35px;
+    margin-top: 20px;
+    padding-bottom: 2px;
+    padding-top: 3px;
+    margin-left: 15px;
+
+}
+h3.trilha-combatente {
+    color: rgb(245, 245, 243);
+    padding-left: 6px;
+    font-size: large;
+    font-weight: bold;
+}
+span.descricao-trilha {
+    color: rgb(245, 245, 243);
+    padding-left: 6px;
+    font-size: small;
+    
 }
